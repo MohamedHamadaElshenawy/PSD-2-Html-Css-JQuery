@@ -1,0 +1,451 @@
+/* Start of global */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sana",sans-serif;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+.main-color{
+    color: #FF6A0C;
+}
+.background-color{
+    background-color: #FF6A0C;
+    color: #FFF;
+}
+.text-center{
+    text-align: center;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #2A2F38;
+    opacity: 0.93;
+    color: #FFF;
+}
+/* End of global */
+
+/* Start of Header */
+.header{
+    background: url("../images/header.jpg");
+    background-size: cover;
+}
+.header .overlay{
+    text-align: center;
+}
+.header .overlay .title{
+    padding: 25px 0;
+    overflow: hidden;
+}
+.header .overlay .title span:nth-child(2){
+    float: right;
+}
+.header .overlay .title .name{
+    float: left;
+    font-size: 29px;
+    font-weight: bold;
+}
+.header .overlay .title i{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.header .overlay .content{
+    margin: 80px 0;
+}
+.header .overlay .content h1{
+    font-weight: bold;
+    font-size: 55px;
+}
+.header .overlay .content p{
+    line-height: 1.6;
+    font-size: 19px;
+    padding: 0 90px;
+}
+.header .overlay .content .buttons{
+    margin-top: 47px;
+}
+.header .overlay .content .buttons button{
+    cursor: pointer;
+    background-color: #292D36;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    color: #FFF;
+    height: 40px;
+    width: 125px;
+    margin: 5px;
+}
+.header .overlay .content .buttons button:hover{
+    transition: .5s all ease-in-out;
+    background-color: #FF6A0C;
+    border: 1px solid #FF6A0C;
+}
+.circle{
+    margin-top: 70px;
+    cursor: pointer;
+}
+.circle:hover{
+    color: #FF6A0C;
+}
+/* End of Header */
+
+/* Start of Features */
+.features{
+    overflow: hidden;
+    padding: 50px 0;
+    margin-top: 50px;
+    text-align: center;
+}
+.features .feat{
+    float: left;
+    width: 22%;
+}
+.features .feat:nth-child(2),
+.features .feat:nth-child(3),
+.features .feat:nth-child(4){
+    margin-left: 4%;
+}
+.features .feat i{
+    color: #FF6A0C;
+    border: 1px solid #292D36;
+    border-radius: 50%;
+    padding: 30px;
+    height: 110px;
+    width: 115px;
+    margin-bottom: 10px;
+    transition: .3s all ease-in-out;
+}
+.features .feat h3{
+    color: #333;
+}
+.features .feat p{
+    color: #555;
+    line-height: 1.5;
+}
+.features .feat i:hover{
+    cursor: pointer;
+    background-color: #FF6A0C;
+    border-color: #FF6A0C;
+    color: #FFF;
+}
+/* End of Features */
+
+/* Start of Subscribe */
+.sub{
+    height: 300px;
+    background: url("../images/subscribe.jpg");
+    background-size: cover;
+}
+.sub .overlay{
+    text-align: center;
+    padding: 126px 0;
+}
+.sub .overlay form input[type="email"]{
+    width: 560px;
+    padding: 13px;
+    margin-right: 20px;
+    border-radius: 15px;
+    color: #FF6A0C;
+    border:1px solid #FFF;
+}
+.sub .overlay form input[type="email"]::-webkit-input-placeholder{
+    color: #999;
+}
+.sub .overlay form button{
+    width: 170px;
+    padding: 13px;
+    border-radius: 15px;
+    border:1px solid #FF6A0C;
+    background-color: #FF6A0C;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .4s all ease-in-out;
+}
+.sub .overlay form button:hover{
+    background-color: #FFF;
+    color: #FF6A0C;
+    border:1px solid #FFF;
+}
+/* End of Subscribe */
+
+/* Start of our works */
+.our-work{
+    padding: 45px 0;
+}
+.our-work .container > p{
+    padding: 8px 200px;
+    line-height: 1.6;
+    color: #555;
+}
+.our-work .container > div{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.our-work .container > div .box{
+    float: left;
+    width: 32%;
+    border-radius: 10px;
+    height: 220px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.our-work .container > div .box img,
+.our-work .container > div .box .over,
+.our-work .container > div .box .info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.our-work .container > div .box .over{
+    background-color: #FF6A0C;
+    opacity: .8;
+    display: none;
+}
+.our-work .container > div .box .info{
+    top: 10px;
+    color: #FFF;
+    display: none;
+}
+.our-work .container > div .box .info p{
+    margin: 23px 27px 35px;
+    line-height: 1.6;
+}
+.our-work .container > div .box .info span{
+    border: 1px solid #FFF;
+    padding: 9px 20px;
+    border-radius: 10px;
+    transition: .3s all ease-in-out;
+}
+.our-work .container > div .box .info span:hover{
+    background-color: #FFF;
+    color: #FF6A0C;
+}
+.our-work .container > div .box:nth-child(2),
+.our-work .container > div .box:nth-child(5){
+    margin: 0 2%;
+}
+.our-work .container > div .box:nth-child(4),
+.our-work .container > div .box:nth-child(5),
+.our-work .container > div .box:nth-child(6){
+    margin-top: 20.48px
+}
+.our-work .container > span{
+    display: inline-block;
+    margin-top: 40px;
+    border: 1px solid #555;
+    border-radius: 15px;
+    padding: 14px 23px;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+.our-work .container > span:hover{
+    border-color: #333;
+    background-color: #333;
+    color: #FFF;
+}
+/* End of our works */
+
+/* Start of Testimonials */
+.testimonials{
+    height: 375px;
+    background: url("../images/testimonials.jpg");
+    background-size: cover;
+    position: relative;
+}
+.testimonials img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 50px 0 5px;
+}
+.testimonials q{
+    display: inline-block;
+    line-height: 1.6;
+    padding: 0 110px;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 19px;
+}
+.testimonials span{
+    font-size: 17px;
+    font-weight: bold;
+}
+.testimonials .overlay .container i{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    color: #999;
+}
+.testimonials .overlay .container i:first-child{
+    left: 10%;
+}
+.testimonials .overlay .container i:last-of-type{
+    right: 10%;
+}
+.testimonials .overlay .container i:hover{
+    transition: .35s all ease-in-out;
+    color: #FFF;
+}
+.testimonials .overlay .container .slide{
+    display: none;
+}
+.testimonials .overlay .container .slide.active{
+    display: block;
+}
+/* End of Testimonials */
+
+/* Start of our team */
+.our-team{
+    padding: 55px 0 30px;
+}
+.our-team .container{
+    overflow: hidden;
+}
+.our-team .container > p{
+    padding: 0px 200px 20px;
+    line-height: 1.6;
+    color: #555;
+}
+.our-team .member{
+    float: left;
+    width: 24%;
+    color: #666;
+    cursor: pointer;
+    padding: 15px 0 0;
+}
+.our-team .member,
+.our-team .member *{
+    transition: .3s all ease-in-out;
+}
+.our-team .member:nth-of-type(2),
+.our-team .member:nth-of-type(3),
+.our-team .member:nth-of-type(4){
+    margin-left: 1.333%;
+}
+.our-team .member img{
+    width: 90%;
+    height: 300px;
+    border-radius: 18px;
+    padding-bottom: 4px;
+    filter: gray;
+    filter: grayscale(1);
+}
+.our-team .member i{
+    margin: 0 2.5px;
+}
+.our-team .member p{
+    line-height: 1.5;
+}
+.our-team .member:hover{
+    padding-top: 0;
+    color: #333;
+}
+.our-team .member:hover img{
+    height: 315px;
+    width: 98%;
+    padding-bottom: 0;
+    border-bottom: 4px solid #FF6A0C;
+    border-radius: 18px 18px 0px 0px;
+    filter: none;
+}
+.our-team .member:hover i:nth-of-type(1){
+    color: #3A5797;
+}
+.our-team .member:hover i:nth-of-type(2){
+    color: #1BA0EE;
+}
+.our-team .member:hover i:nth-of-type(3){
+    color: #E44034;
+}
+/* End of our team */
+
+/* Start of Contact me */
+.contact-me{
+    height: 500px;
+    background: url("../images/contact-me.jpg");
+    background-size: cover;
+}
+.contact-me .overlay .container{
+    padding: 20px 0;
+}
+.contact-me .overlay .container > p{
+    padding: 0px 200px 20px;
+    line-height: 1.6;
+}
+.contact-me form{
+    overflow: hidden;
+}
+.contact-me form input{
+    width: 33.85%;
+    padding: 12px 20px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+}
+.contact-me form input:nth-child(2){
+    margin-left: 20px;
+}
+.contact-me form textarea{
+    width: 70%;
+    max-width: 70%;
+    height: 150px;
+    max-height: 170px;
+    display: block;
+    margin: auto;
+    padding: 12px 20px;
+    margin-top: 20px;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-me form button{
+    border: 1px solid #FF6A0C;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 45px;
+    border-radius: 10px;
+    display: block;
+    float: left;
+    margin-left: 152px;
+}
+.contact-me form button:hover{
+    background-color: #FFF;
+    border-color: #FFF;
+    color: #FF6A0C;
+    transition: .3s all ease-in-out;
+}
+.contact-me form span{
+    display: block;
+    float: right;
+    margin-right: 150px;
+    margin-top: -3px;
+}
+.contact-me form img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 4px;
+    cursor: pointer;
+}
+/* End of Contact me */
+
+/* Start of Footer */
+.footer{
+    padding: 22.5px 0;
+    background-color: #323640;
+}
+.footer p{
+    display: inline-block;
+    color: #FFF;
+    font-weight: bold;
+}
+.footer p:nth-of-type(2){
+    float: right;
+}
+/* End of Footer */
